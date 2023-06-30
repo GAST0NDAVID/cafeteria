@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex: 1;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+
+h2 {
+ 
+  display: inline-block;
+}
+
+.line {
+  height: 3px;
+  width: 50%;
+  margin: 10px 0;
+  background-color: #c39c63;
+}
+.chocolate-section {
+  background-color: #5e311e;
+  color: white; 
+  padding: 20px; 
+}

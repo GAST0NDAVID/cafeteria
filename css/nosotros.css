@@ -1,0 +1,29 @@
+.chocolate-section {
+  background-color: #5e311e;
+  color: white; 
+  padding: 20px; 
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.image-rotate {
+  transform: rotate(-10deg);
+  max-width: 90%;
+}
+
+.text-container {
+  flex: 1;
+}
+
+h2 {
+  border-bottom: 3px solid black;
+  display: inline-block;
+  margin-bottom: 10px;
+}

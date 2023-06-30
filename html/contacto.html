@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/contacto.css">
+	<title>contacto</title>
+</head>
+<body>
+<style>
+
+		header {
+			background-image: url(../img/header_contacto.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 600px;
+		}
+		
+
+		nav {
+	float: right;
+	margin-top: 50px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: orange;
+	background-color: #c39c63;
+}
+			
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+		.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.imagen1,
+.imagen2,
+.imagen3 {
+  margin: 0 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.imagen1 img,
+.imagen2 img,
+.imagen3 img {
+  width: 100%;
+  height: auto;
+}
+
+.imagen1 p,
+.imagen2 p,
+.imagen3 p {
+  margin: 10px 0 0;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+	</style>
+	<header>
+	
+	<img src="../img/logo.svg" alt="Imagen de inicio" width="200">
+	<nav>
+		<ul>
+			<li><a href="../index.html"><h2><font color="#fff"> Inicio</h2></font></a></li>
+			<li><a href="nosotros.html"><h2><font color="#fff">Nosotros</h2></font></a></li>
+			<li><a href="proceso.html"><h2><font color="#fff">Proceso</h2></font></a></li>
+			<li><a href="menu.html"><h2><font color="#fff">Menú</h2></font></a></li>
+			<li><a href="galeria.html"><h2><font color="#fff">Galería</h2></font></a></li>
+			<li><a href="contacto.html"><h2><font color="#fff">Contacto</h2></font></a></li>
+		</ul>
+	</nav>
+	<center><h1><font color="#fff">MEJORES GRANOS, MEJOR CAFÉ</font></h1></center>
+
+	</header>
+
+	<center><h3><font color="#c39c63"> RESERVA TU</font></h3></center>
+<center><font color="#5e311e"><h3> MESA</h3></font></center><br>
+<img src="../img/cafe.svg" class="center">
+
+<div class="reservation-form-container">
+  <form class="reservation-form">
+    <h2>Formulario de Reservación</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Tu Nombre" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Tu Email" name="email" required>
+    <label for="guests">Número de Personas:</label>
+    <select id="guests" name="guests" required>
+      <option value="">Selecciona una opción</option>
+      <option value="1">1 </option>
+      <option value="2">2 </option>
+      <option value="3">3 </option>
+      <option value="4">4 </option>
+      <option value="+4">+4 </option>
+    </select>
+    <label for="time">Hora:</label>
+    <input type="time" id="time" name="time" required>
+    <label for="date">Fecha:</label>
+    <input type="date" id="date" name="date" required>
+    <button type="submit">Enviar</button>
+  </form>
+  <img src="../img/granos_cafe.jpg" alt="Imagen de reserva" class="reservation-image">
+</div>
+
+
+<table>
+	<tr>
+		<td><h2><font color="#c39c63"> UBICACIÓN</font></h2></td>
+		<td><h2><font color="#c39c63">RESERVACIÓN</font></h2></td>
+		<td><h2><font color="#c39c63">HORARIO</font></h2></td>
+	</tr>
+	<tr>
+		<td><h3>Nicolas Copernico 5599</h3></td>
+		<td><h3>Tel. 03329-84254</h3></td>
+		<td><h3>Lun-Jue: 11:00 - 22:00</h3></td>
+	</tr>
+	<tr>
+		<td><h3>San Pedro, Buenos Aires</h3></td>
+		<td><h3>Llamar</h3></td>
+		<td><h3>Vie-Sab: 09:00 - 24:00</h3></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><h3>Domingo: Cerrado</h3></td>
+	</tr>
+</table>
+<div class="chocolate-section">
+<center>Todos los derechos reservados. La Cafeteria</center>
+</div>
+</body>
+</html>

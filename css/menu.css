@@ -1,0 +1,20 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+}
+
+.imagen-derecha {
+  margin-left: 20px;
+}
+.chocolate-section {
+  background-color: #5e311e;
+  color: white; 
+  padding: 20px; 
+}

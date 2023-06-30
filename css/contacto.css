@@ -1,0 +1,57 @@
+.chocolate-section {
+  background-color: #5e311e;
+  color: white; 
+  padding: 20px; 
+}
+.reservation-form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  border: none;
+  padding: 20px;
+}
+
+.reservation-form {
+  float: left;
+  width: 60%;
+}
+
+.reservation-image {
+  float: right;
+  width: 35%;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.reservation-form label,
+.reservation-form input,
+.reservation-form select,
+.reservation-form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation-form label {
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.reservation-form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reservation-form button:hover {
+  background-color: #5e311e;
+}
